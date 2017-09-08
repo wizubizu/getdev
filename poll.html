@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GetDev</title>
+	
+
+	<!-- STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="libraries/bootstrap/css/bootstrap.min.css">
+
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/checkbox.css">
+
+	<link rel="stylesheet" href="assets/css/jQuery-plugin-progressbar.css">
+	
+	<!-- Select -->
+	
+	<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.material.mobile.min.css" />
+
+
+	<!-- WEBFONT -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		
+		<nav class="navbar navbar-default h-65" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html"><img src="assets/img/getdev_logo.png" class="width-50"></a>
+					</div>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right p-t-7">
+						<!-- <li><a href="#">Hire a Dev</a></li>
+						<li><a href="#">Post a Job</a></li> -->
+						<!-- <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li> -->
+
+
+						<!-- <a href=""> <button type="button" class="btn btn-default">Hire a Dev</button></a>
+						<a href=""> <button type="button" class="btn btn-default">Post a Job</button></a> -->
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="row p-b-5p">
+				<div class="col-md-3 col-sm-3"></div>
+				<div class="col-md-6 bs p-t-20 p-b-5p">
+
+
+					<div class="social text-center">
+						<ul>
+			                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+			                <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+			                <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+			            </ul>
+			        </div>
+
+			        <p class="text-center p-t-10 p-b-10">or</p>
+					<form action="" method="POST" role="form">
+
+						<div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Job Role</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="form-group">
+			                		<select id="required" multiple="multiple" data-placeholder="Select ..." >
+			                			<option value="">Back-End</option>
+				                		<option value="">Front-End</option>
+				                		<option value="">DevOPs</option>
+							        </select>
+				                </div>
+			                </div>
+			            </div>
+
+			            <div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Stack</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="row">
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="checkbox">
+											<input type="checkbox" id="check1">
+											<label for="check1" class="p-l-0">
+												<span class=""> PHP</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="checkbox">
+											<input type="checkbox" id="check2">
+											<label for="check2" class="p-l-0">
+												<span class=""> Python</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="checkbox">
+											<input type="checkbox" id="check4">
+											<label for="check4" class="p-l-0">
+												<span class=""> Laravel</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="checkbox">
+											<input type="checkbox" id="check5">
+											<label for="check5" class="p-l-0">
+												<span class=""> Cake PHP</span>
+											</label>
+										</div>
+									</div>
+								</div>
+			                </div>
+			            </div>
+
+
+			            <div class="row">
+			                <div class="col-xs-6 col-md-3 col-sm-3">
+			                	<p>Years of Expirence</p>
+			                </div>
+			                <div class="col-xs-6 col-md-9">
+			                	<div class="form-group">
+				                	<select name="" id="input" class="form-control" required="required">
+				                		<option value="">1</option>
+				                		<option value="">2</option>
+				                		<option value="">3</option>
+				                	</select>
+				                </div>
+			                </div>
+			            </div>
+
+
+			            <div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>JD</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="form-group">
+				                	<textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+				                </div>
+			                </div>
+			            </div>
+
+			           	<div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Salary</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="row">
+									<div class="col-md-2 col-xs-6 col-sm-4">
+										<p>Between</p>
+									</div>
+									<div class="col-md-4 col-xs-6 col-sm-4">
+										<div class="form-group">
+						                	<select name="" id="input" class="form-control" required="required">
+						                		<option value="">100.000</option>
+						                		<option value="">Front-End</option>
+						                		<option value="">DevOPs</option>
+						                	</select>
+						                </div>
+									</div>
+									<div class="col-md-2 col-xs-6 col-sm-4">
+										<p>and</p>
+									</div>
+									<div class="col-md-4 col-xs-6 col-sm-4">
+										<div class="form-group">
+						                	<select name="" id="input" class="form-control" required="required">
+						                		<option value="">250.000</option>
+						                		<option value="">Front-End</option>
+						                		<option value="">DevOPs</option>
+						                	</select>
+						                </div>
+									</div>
+								</div>
+							</div>
+			            </div>
+
+			            <div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Expire</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="form-group">
+				                	<input type="text" name="" class="form-control" onfocus="(this.type='date')" placeholder="02/04/2017"  required="">
+				                </div>
+			                </div>
+			            </div>
+
+			            <div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Location</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="row">
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="form-group">
+											<input class="form-control" name="lastname" placeholder="City" type="text" required />
+										</div>
+									</div>
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="form-group">
+						                	<select name="" id="input" class="form-control" required="required">
+						                		<option value="">Country</option>
+						                		<option value="">Front-End</option>
+						                		<option value="">DevOPs</option>
+						                	</select>
+						                </div>
+									</div>
+								</div>
+							</div>
+			            </div>
+
+			            <div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Job Type</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="row">
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="radio">
+			                                <input type="radio" name="radio1" id="radio1" value="option1">
+			                                <label for="radio1">
+			                                    Remote
+			                                </label>
+			                            </div>
+									</div>
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="radio">
+			                                <input type="radio" name="radio1" id="radio2" value="option2">
+			                                <label for="radio2">
+			                                    Office
+			                                </label>
+			                            </div>
+									</div>
+								</div>
+							</div>
+			            </div>
+
+			            <div class="row">
+			                <div class="col-xs-4 col-md-3 col-sm-3">
+			                	<p>Level</p>
+			                </div>
+			                <div class="col-xs-8 col-md-9">
+			                	<div class="row">
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="radio">
+			                                <input type="radio" name="radio2" id="radio3" value="option3">
+			                                <label for="radio3">
+			                                    Entry
+			                                </label>
+			                            </div>
+									</div>
+									<div class="col-md-6 col-xs-6 col-sm-4">
+										<div class="radio">
+			                                <input type="radio" name="radio2" id="radio4" value="option4">
+			                                <label for="radio4">
+			                                    Intermediate
+			                                </label>
+			                            </div>
+									</div>
+								</div>
+							</div>
+			            </div>
+						<div class="row p-t-20">
+				            <div class="col-md-2 col-sm-3"></div>
+						    <div class="col-md-8 col-sm-8">
+								<a href=""><button type="submit" class="btn c-white bg-red1 width-350 mwidth-100">Submit</button></a>
+							</div>
+							<div class="col-md-2 col-sm-1"></div>
+						</div>	
+					</form>
+				</div>
+				<div class="col-md-3 col-sm-3"></div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	
+	<!-- <footer class="nb-footer bg-greyish-brown m-t-70 p-t-10">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-6"></div>
+				<div class="col-md-2">
+					<p class="">
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-3">
+							<a href=""><i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="color: #3B5999"></i></a>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-3">
+							<a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true" style=" color: #1DA1F3"></i></a>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-3">
+							<i class="fa fa-google fa-2x" aria-hidden="true" style="color: #E0483A"></i>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-3">
+							<a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true" style="color: #d10869;"></i></a>
+						</div>
+					</div>
+						
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer> -->
+	
+	
+
+
+	
+
+
+
+	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- select -->
+
+    <script src="https://kendo.cdn.telerik.com/2017.2.621/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js"></script>
+    <script type="text/javascript">
+    	 $(document).ready(function() {
+            // create MultiSelect from select HTML element
+            var required = $("#required").kendoMultiSelect().data("kendoMultiSelect");
+            var optional = $("#optional").kendoMultiSelect({
+                autoClose: false
+            }).data("kendoMultiSelect");
+
+            $("#get").click(function() {
+                alert("Attendees:\n\nRequired: " + required.value() + "\nOptional: " + optional.value());
+            });
+        });
+    </script>
+    
+    
+	
+
+		
+</body>
+</html>
