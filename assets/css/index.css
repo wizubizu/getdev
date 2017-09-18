@@ -1062,12 +1062,16 @@ input[type="date"]:hover ~ .calendar_index{
 	.mm-l-16 {margin-left:16px !important;}
 	.mm-l-18 {margin-left:18px !important;}
 	.mm-l-20 {margin-left:20px !important;}
+	.mm-l-25 {margin-left:25px !important;}
 	.mm-l-30 {margin-left:30px !important;}
 	.mm-l-32 {margin-left:32px !important;}
 	.mm-l-35 {margin-left:35px !important;}
+	.mm-l-40 {margin-left:40px !important;}
+	.mm-l-45 {margin-left:45px !important;}
 	.mm-l-50 {margin-left:50px !important;}
 	.mm-l-55 {margin-left:55px !important;}
 	.mm-l-60 {margin-left:60px !important;}
+	.mm-l-64 {margin-left:64px !important;}
 	.mm-l-65 {margin-left:65px !important;}
 	.mm-l-80 {margin-left:80px !important;}
 	.mm-l-110 {margin-left:110px !important;}
@@ -1152,72 +1156,72 @@ input[type="date"]:hover ~ .calendar_index{
     	margin-top: -37px !important;
 	}
 
-.mcard{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -79% !important;
-}
+	.mcard{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -79% !important;
+	}
 
-.mcard1{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -72% !important;
-}
+	.mcard1{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -72% !important;
+	}
 
-.mcard2{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -40% !important;
-}
+	.mcard2{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -40% !important;
+	}
 
-.mcard3{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -43% !important;
-}
+	.mcard3{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -43% !important;
+	}
 
-.mcard4{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -69% !important;
-}
-.mcard5{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -58% !important;
-}
+	.mcard4{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -69% !important;
+	}
+	.mcard5{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -58% !important;
+	}
 
-.mcard6{
-	position: absolute !important;
-    margin-left: 73% !important;
-    margin-top: -64% !important;
-}
-
-
-.mapartments{
-	margin: 0 auto;
-	margin-top: 60%; 
-}
-
-.mapartment{
-	margin: 0 auto;
-	margin-top: 10%; 
-}
-
-.mbd-brandaprtment{ border:none !important;box-shadow:none;}
+	.mcard6{
+		position: absolute !important;
+	    margin-left: 73% !important;
+	    margin-top: -64% !important;
+	}
 
 
-	.ip6{
-	position: absolute;
-    left: 77px;
-    bottom: -9px;
-}
+	.mapartments{
+		margin: 0 auto;
+		margin-top: 60%; 
+	}
+
+	.mapartment{
+		margin: 0 auto;
+		margin-top: 10%; 
+	}
+
+	.mbd-brandaprtment{ border:none !important;box-shadow:none;}
+
+
+		.ip6{
+		position: absolute;
+	    left: 77px;
+	    bottom: -9px;
+	}
 
 
 
 
-/****  Top  ****/
-.mt-_14 { top:-14px; }
+	/****  Top  ****/
+	.mt-_14 { top:-14px; }
 
 
 	.mp-l-0{padding-left:0px !important;}
@@ -1275,7 +1279,7 @@ input[type="date"]:hover ~ .calendar_index{
     right: 5% !important;
     margin-right: -3px !important;
     margin-bottom: 8px !important;
-}
+	}
 
 
 
@@ -1286,15 +1290,15 @@ input[type="date"]:hover ~ .calendar_index{
     right: 6% !important;
     margin-right: -4px;
     margin-bottom: -15px;
+	}
+
+	.tc{
+		text-align: center !important;
+	}
+
+
+
 }
-
-.tc{
-	text-align: center !important;
-}
-
-
-
-
 
 
 

@@ -3,25 +3,25 @@
             
 
            var view_fullname  = $('#view_fullname').val();
-           // alert(view_fullname);
+           alert(view_fullname);
            
            var view_email = $('#view_email').val();
-           // alert(view_email);
+           alert(view_email);
 
            var view_phone   = $('#view_phone').val();
-           // alert(view_phone);
+           alert(view_phone);
 
            var view_company_name = $('#view_company_name').val();
-           // alert(view_company_name);
+           alert(view_company_name);
 
            var view_company_address= $('#view_company_address').val();
-           // alert(view_company_address);
+           alert(view_company_address);
 
            var view_date= $('#view_date').val();
-           // alert(view_date);
+           alert(view_date);
 
            var view_time = $('#view_time').val();
-           // alert(view_time);
+           alert(view_time);
 
            e.preventDefault();
            
