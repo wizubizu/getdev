@@ -1,4 +1,4 @@
- /*@font-face{
+   /*@font-face{
 	font-family: 'Avenir';
 	src: url('../../Avenir/AvenirLTStd-Book.otf');
 	src: url('../../Avenir/AvenirLTStd-Light.otf');
@@ -88,6 +88,10 @@
 	font-family: "WorkSans-Regular";
 }*/
 
+@font-face{
+	font-family: 'cera GR Thin';
+	src: url('../../cera/cera GR Thin.otf');
+}
 
 .clearfix{
 	clear: all;
